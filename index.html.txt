@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concepteur Designer Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Coralie GADAN Concepteur Designer Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#pack-graphique">Pack Graphique</a></li>
+                    <li><a href="#pack-web">Pack Web</a></li>
+                    <li><a href="#pack-conseil">Pack Conseil</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="intro">
+        <div class="container">
+            <h2>Bienvenue sur mon site de conception et design web</h2>
+            <p>Découvrez nos services et trouvez le pack qui vous convient le mieux.</p>
+        </div>
+    </section>
+
+    <section id="packs">
+        <div class="container">
+            <div class="pack" id="pack-graphique">
+                <h3>Pack Graphique</h3>
+                <p>Inclut la création de logo, identité visuelle et prints.</p>
+            </div>
+            <div class="pack" id="pack-web">
+                <h3>Pack Web</h3>
+                <p>Création de sites web à votre image, entièrement personnalisés.</p>
+            </div>
+            <div class="pack" id="pack-conseil">
+                <h3>Pack Conseil & Formation</h3>
+                <p>Conseil et formation pour maîtriser vos outils web et graphiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Concepteur Designer Web. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
